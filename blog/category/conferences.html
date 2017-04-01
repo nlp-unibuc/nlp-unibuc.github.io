@@ -24,6 +24,15 @@
 </head>
 
 <body id="index" class="home">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=303613546408187";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
         <header id="banner" class="body">
                 <h1>
                 <a href="/"><img src="/theme/images/logo.png" alt="HLT"> </a>
@@ -36,13 +45,14 @@
                     <li><a href="/projects.html">Projects</a></li>
                     <li><a href="/resources.html">Resources</a></li>
                     <li><a href="/publications.html">Publications</a></li>
-                    <li><a href="/subscribe.html">Subscribe</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
         
         
 
             <aside id="featured" class="body">
+                <h4>To stay up to date with our work, please <a href="/subscribe.html">subscribe to our newsletter.</a></h4>
                 <article>
                     <h1 class="entry-title"><a href="/blog/papers-accepted-at-eacl-2017-and-cicling-2017.html">Papers accepted at <span class="caps">EACL</span> 2017 and CICLing&nbsp;2017</a></h1> 
 <footer class="post-info">
