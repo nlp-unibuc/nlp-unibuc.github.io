@@ -53,13 +53,13 @@
     <h1 class="entry-title"><span class="caps">SIGAR</span> - Sistem Inteligent de Generare Automată a&nbsp;Răspunsurilor</h1>
     
     <h1>Intelligent Systems for Automatic Response&nbsp;Generation</h1>
-<p><span class="caps">SIGAR</span>: Project <span class="caps">53BG</span> ⁄ 2016, funded by  Romanian National Authority for Scientific Research and Innovation, <span class="caps">CNCS</span>/<span class="caps">CCCDI</span> – <span class="caps">UEFISCDI</span>, <span class="caps">PNCDI</span> <span class="caps">III</span> (Programul 2 - Creşterea competitivităţii economiei româneşti prin cercetare, dezvoltare şi inovare. Transfer de cunoaștere la agentul economic &#8220;Bridge&nbsp;Grant&#8221;)</p>
+<p><span class="caps">SIGAR</span>: Project <span class="caps">53BG</span> ⁄ 2016, funded by Romanian National Authority for Scientific Research and Innovation, <span class="caps">CNCS</span>/<span class="caps">CCCDI</span> – <span class="caps">UEFISCDI</span>, <span class="caps">PNCDI</span> <span class="caps">III</span> (Programul 2 - Creşterea competitivităţii economiei româneşti prin cercetare, dezvoltare şi inovare. Transfer de cunoaștere la agentul economic &#8220;Bridge&nbsp;Grant&#8221;)</p>
 <h2>Abstract</h2>
 <p>In this project, we develop a natural language processing solution for an automatic question-answering system. The solution will be used within the Enterprise Resource Planning systems developed by Pluriva <span class="caps">SRL</span>. By applying various preprocessing filters and parsing stages, we extract pairs of question-prototypical answer from a database provided by Pluriva. We use the pairs as to train a machine learning algorithm for text classification. Our solution is built from two main components: (1) a language-independent core, constructed from multiple strong classifiers aggregated into a single optimal response, and (2) a component built as a language-specific extension, which consists of optimized models for Romanian. The <span class="caps">NLP</span> tools available for Romanian are scarce and insufficiently robust to be successful when the texts are not written correctly (as it is the case with the ones residing in the database offered by Pluriva), therefore, we extend and develop our own resources specific for this particular dataset. We build tools for diacritic restoration, named entity recognition, and part of speech tagging. 
 A question answering machine learning system is a valuable resource for any company that uses customer relationship management software, helping to increase the quality and efficiency of the services, decrease of redundant work for the employees, and possibly reducing the average waiting time to solve a service&nbsp;request. </p>
 <hr>
 <h2>Partener</h2>
-<p>Pluriva <span class="caps">SRL</span> este o companie de produse și servicii informatice înființată acum aproape 20 de ani, al carei principal principal produs este un sistem informatic integrat ce acoperă toate fluxurile de business necesare operării unei afaceri. Pluriva <span class="caps">ERP</span> are peste 50 de module, grupate în 11 categorii. Pluriva <span class="caps">SRL</span> asigura atat servicii, cat si suport tehnic post implementare. Pentru acest lucru, Pluriva a dezvoltat un sistem de achizitionare prin email a cererilor de la utilizatori impreuna cu solutiile identificate si oferite de specialistii proprii la capatul unui intreg lant de activitati. In cei 5 ani de implementare, au fost achizitionate un numar semnificativ de cereri si raspunsuri. Din practică, s-a observat că utilizatorii formulează de multe ori  întrebări în limbaj natural, a căror rezolvare este deja descrisă de multe ori într-un raspuns (tichet) deja existent și stocat în baza de date. Pentru a obține o reacție mult mai rapidă la întrebările utilizatorilor, a fost identificata nevoia unei aplicatii care să sugereze automat o posibilă rezolvare, selectând dintre tichetele deja existente. Acest lucru face obiectivul principal al proiectului&nbsp;nostru.</p>
+<p>Pluriva <span class="caps">SRL</span> este o companie de produse și servicii informatice înființată acum aproape 20 de ani, al carei principal principal produs este un sistem informatic integrat ce acoperă toate fluxurile de business necesare operării unei afaceri. Pluriva <span class="caps">ERP</span> are peste 50 de module, grupate în 11 categorii. Pluriva <span class="caps">SRL</span> asigura atat servicii, cat si suport tehnic post implementare. Pentru acest lucru, Pluriva a dezvoltat un sistem de achizitionare prin email a cererilor de la utilizatori impreuna cu solutiile identificate si oferite de specialistii proprii la capatul unui intreg lant de activitati. In cei 5 ani de implementare, au fost achizitionate un numar semnificativ de cereri si raspunsuri. Din practică, s-a observat că utilizatorii formulează de multe ori întrebări în limbaj natural, a căror rezolvare este deja descrisă de multe ori într-un raspuns (tichet) deja existent și stocat în baza de date. Pentru a obține o reacție mult mai rapidă la întrebările utilizatorilor, a fost identificata nevoia unei aplicatii care să sugereze automat o posibilă rezolvare, selectând dintre tichetele deja existente. Acest lucru face obiectivul principal al proiectului&nbsp;nostru.</p>
 <h2>Obiective</h2>
 <h3><a href="" title="/reports/raport-sigar-16.pdf">Faza&nbsp;1</a></h3>
 <h5>Activitate 1.1: accesarea și pre-procesarea&nbsp;datelor.</h5>
@@ -75,40 +75,52 @@ A question answering machine learning system is a valuable resource for any comp
 - Adnotare date pe categorii;
 - Determinarea raspunsurilor&nbsp;prototip.</p>
 <h4>Activitate 2.2: Activitati&nbsp;diseminare.</h4>
-<p>Principalele acțiuni desfășurate în cadrul acestei activități au fost participarea la conferinte, efectuarea unor stagii de  cercetare, diseminarea rezultatelor in intalniri formale si informale, in organizarea unui seminar de cercetare,&nbsp;etc.</p>
+<p>Principalele acțiuni desfășurate în cadrul acestei activități au fost participarea la conferinte, efectuarea unor stagii de cercetare, diseminarea rezultatelor in intalniri formale si informale, in organizarea unui seminar de cercetare,&nbsp;etc.</p>
 <h4>Activitate 2.3: Clasificare automata a subiectelor pe categorii (classification by&nbsp;topic).</h4>
-<p>În scopul realizarii acestei activități următoarele acțiuni au  fost planificate și realizate:
+<p>În scopul realizarii acestei activități următoarele acțiuni au fost planificate și realizate:
 - Proiectare algoritm;
 - Antrenare, testare,&nbsp;evaluare.</p>
 <h4>Activitate 2.4: Proiectare modul&nbsp;1.</h4>
-<p>Principalele acțiuni  desfășurate în cadrul  acestei   activități au fost analiza, testarea, si evaluarea&nbsp;subclasificatorilor.</p>
+<p>Principalele acțiuni desfășurate în cadrul acestei activități au fost analiza, testarea, si evaluarea&nbsp;subclasificatorilor.</p>
 <h4>Activitate 2.5: Dezvoltare&nbsp;agregator.</h4>
-<p>Principalele acțiuni  desfășurate în cadrul  acestei activități au fost analiza, testarea, si evaluarea&nbsp;agregatorului.</p>
+<p>Principalele acțiuni desfășurate în cadrul acestei activități au fost analiza, testarea, si evaluarea&nbsp;agregatorului.</p>
 <h4>Activitate 2.6: Proiectare si dezvoltare retea&nbsp;neuronala.</h4>
 <p>Principalele acțiuni desfășurate în cadrul acestei activități au fost analiza, testarea, evaluare retelei precum si integrarea retelei in&nbsp;agregator.</p>
-<h2>Publicatii</h2>
+<h3><a href="" title="/reports/raport-sigar-18.pdf">Faza&nbsp;3</a></h3>
+<p>Dezvoltarea modulului de limba română,testarea și evaluarea metodelor proiectate în etapele anterioare. Pentru îndeplinirea acestui obiectiv, au fost planificate următoarele&nbsp;activități:</p>
+<h4>Activitate 3.1: Dezvoltarea de resurse specifice proiectului pentru limba română. În scopul realizării acestei activități următoarele acțiuni au fost planificate și&nbsp;realizate:</h4>
+<ul>
+<li>analiza morfologica a&nbsp;datelor</li>
+<li>extragerea părților de vorbire pentru datele&nbsp;disponibile</li>
+<li>finalizarea adnotarilor pentru limba&nbsp;romana</li>
+</ul>
+<h4>Activitate 3.2: Activitati&nbsp;diseminare.</h4>
+<p>Principalele acțiuni desfășurate în cadrul acestei activități au fost participarea la conferinte, efectuarea unor stagii de cercetare, diseminarea rezultatelor in intalniri formale si informale, in organizarea unui seminar de cercetare,&nbsp;etc. </p>
+<h4>Activitate 3.3: Evaluare si testare module pentru limba&nbsp;romana</h4>
+<p>În scopul realizarii acestei activități următoarele acțiuni au fost planificate și realizate:
+- analiza datelor fara diacritice
+- detectarea entitatilor in romana
+- evaluare, testare,&nbsp;ajustare</p>
+<h4>Activitate 3.4: Finalizarea modulelor,evaluarea, ajustarea&nbsp;rezultatelor.</h4>
+<p>Principalele acțiuni desfășurate în cadrul acestei activități au fost finalizarea resurselor pentru generarea răspunsurilor, testarea, evaluarea și ajustarea metodelor dezvoltate în etapele anterioare, întocmire rapoarte&nbsp;finale.</p>
+<h2>Publicații</h2>
 <ol>
-<li>
-<p>Alina Maria Ciobanu, Sergiu Nisioi, Liviu P. Dinu. <strong>Vanilla Classifiers for Distinguishing between Similar Languages.</strong>  In Proc.  Third Workshop on <span class="caps">NLP</span> for Similar Languages, Varieties and Dialects (VarDial3), co-located with <span class="caps">COLING</span> 2016, december 11-16, 2016, Osaka, Japan, pages&nbsp;235-242.</p>
-</li>
-<li>
-<p>Anca Bucur, Sergiu Nisioi. <strong>A Visual Representation of Wittgenstein’s Tractatus Logico-Philosophicus.</strong> In Proc. Language Technology Resources and Tools for Digital Humanities (<span class="caps">LT4DH</span>), co-located with <span class="caps">COLING</span> 2016, december 11-16, 2016, Osaka, Japan, pages 71-75, <span class="caps">ISBN978</span>-4-87974-708-2</p>
-</li>
-<li>
-<p>Sergiu Nisioi, Sanja Štajner, Simone Paolo Ponzetto and Liviu P. Dinu, 2017. <strong>Exploring Neural Text Simplification Models.</strong> In Proc. of the 55th Annual Meeting of the Association for Computationa Linguistics, <span class="caps">ACL</span> 2017, p 85-91, Vancouver, Canada, July 30 - August&nbsp;4.</p>
-</li>
-<li>
-<p>Alina Ciobanu, Liviu P. Dinu, and Andrea Sgarro, 2017. <strong>Towards a Map of the Syntactic Similarity of Languages.</strong> In Proc18th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2017), Budapest, Hungary, Aprile 17-23, 2017(proceedings in curs de aparitie la Springer <span class="caps">LNCS</span>)</p>
-</li>
-<li>
-<p>Alina Maria Ciobanu, Liviu P. Dinu, 2017. <strong>Romanian Word Production: an Orthographic Approach Based on Sequence Labeling.</strong> In Proc18th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2017), Budapest, Hungary, Aprile 17-23, 2017(proceedings in curs de aparitie la Springer <span class="caps">LNCS</span>)</p>
-</li>
-<li>
-<p>Marcos Zampieri, Alina Maria Ciobanu, Liviu P. Dinu. <strong>Native Language Identification on Text and Speech.</strong> Proceedings of the 12th Workshop on Innovative Use of <span class="caps">NLP</span> for Building Educational Applications (co-located with <span class="caps">EMNLP</span> 2017), pages 398–404 Copenhagen, Denmark, September 8,&nbsp;2017.</p>
-</li>
-<li>
-<p>Alina Maria Ciobanu, Marcos Zampieri, Shervin Malmasi, Liviu P. Dinu. <strong>Including Dialects and Language Varieties in Author Profiling.</strong> Working Notes of <span class="caps">CLEF</span> 2017 - Conference and Labs of the Evaluation Forum, Dublin, Ireland, September 11-14, 2017, {<span class="caps">CEUR</span>} Workshop Proceedings, vol.&nbsp;1866</p>
-</li>
+<li>Alina Maria Ciobanu, Sergiu Nisioi, Liviu P. Dinu. Vanilla Classifiers for Distinguishing between Similar Languages. In Proc. Third Workshop on <span class="caps">NLP</span> for Similar Languages, Varieties and Dialects (VarDial3), co-located with <span class="caps">COLING</span> 2016, december 11-16, 2016, Osaka, Japan, pages&nbsp;235-242.</li>
+<li>Anca Bucur, Sergiu Nisioi. A Visual Representation of Wittgenstein’s Tractatus Logico-Philosophicus. In Proc. Language Technology Resources and Tools for Digital Humanities (<span class="caps">LT4DH</span>), co-located with <span class="caps">COLING</span> 2016, december 11-16, 2016, Osaka, Japan, pages 71-75, <span class="caps">ISBN978</span>-4-87974-708-2</li>
+<li>Sergiu Nisioi, Sanja Štajner, Simone Paolo Ponzetto and Liviu P. Dinu, 2017. Exploring Neural Text Simplification Models. In Proc. of the 55th Annual Meeting of the Association for Computational Linguistics, <span class="caps">ACL</span> 2017, p 85-91, Vancouver, Canada, July 30 - August&nbsp;4.</li>
+<li>Alina Ciobanu, Liviu P. Dinu, and Andrea Sgarro, 2017. Towards a Map of the Syntactic Similarity of Languages. In Proc18th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2017), Budapest, Hungary, Aprile 17-23, 2017(proceedings in curs de aparitie la Springer <span class="caps">LNCS</span>)</li>
+<li>Alina Maria Ciobanu, Liviu P. Dinu, 2017. Romanian Word Production: an Orthographic Approach Based on Sequence Labeling. In Proc18th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2017), Budapest, Hungary, Aprile 17-23, 2017(proceedings in curs de aparitie la Springer <span class="caps">LNCS</span>)</li>
+<li>Marcos Zampieri, Alina Maria Ciobanu, Liviu P. Dinu. Native Language Identification on Text and Speech. Proceedings of the 12th Workshop on Innovative Use of <span class="caps">NLP</span> for Building Educational Applications (co-located with <span class="caps">EMNLP</span> 2017), pages 398–404 Copenhagen, Denmark, September 8,&nbsp;2017.</li>
+<li>Alina Maria Ciobanu, Marcos Zampieri, Shervin Malmasi, Liviu P. Dinu. Including Dialects and Language Varieties in Author Profiling.Working Notes of <span class="caps">CLEF</span> 2017 - Conference and Labs of the Evaluation Forum, Dublin, Ireland, September 11-14, 2017, {<span class="caps">CEUR</span>} Workshop Proceedings, vol.&nbsp;1866</li>
+<li>Cornelia Caragea, Liviu P. Dinu, Bogdan Dumitru, 2018. Exploring Optimism and Pessimism in Twitter Using Deep Learning. In Proc. <span class="caps">EMNLP</span> 2018, Brussels, Belgium, 2018 (to&nbsp;appear)</li>
+<li>Sergiu Nisioi, Anca Bucur, Liviu P Dinu, 2018. Lexical Analysis and Content Extraction from Customer-Agent Interactions. Proceedings of the 2018 <span class="caps">EMNLP</span> Workshop W-<span class="caps">NUT</span>: The 4th Workshop on Noisy User-generated Text, pages 132–136 Brussels, Belgium,&nbsp;2018</li>
+<li>Alina Ciobanu, Liviu P. Dinu, 2018. Ab Initio: Latin Proto-word Reconstruction. In Proc.<span class="caps">COLING</span> 2018 (main conference), p. 1604-1614, Santa Fe, <span class="caps">USA</span>,&nbsp;2018</li>
+<li>Alina Ciobanu, Liviu P. Dinu, 2018. Simulating Language Evolution: A Tool for Historical Linguistics. In Proc.<span class="caps">COLING</span> 2018 (demo section), pp68-72, Santa Fe, <span class="caps">USA</span>,&nbsp;2018 </li>
+<li>Anca Bucur, 2018. Posthumanism, Technology, and Monstrous Life Forms. In Proceedings of <span class="caps">ISEA</span> 2018 - 24th International Symposium on Electronic Art, p 313-316, Durban, South Africa,&nbsp;2018.</li>
+<li>Bogdan Dumitru, Alina Ciobanu, Liviu P Dinu, 2018. <span class="caps">ALB</span> at SemEval-2018 Task 10: A System for Capturing Discriminative Attributes. In Proc SemEval 2018 (SemEval@<span class="caps">NAACL</span>-<span class="caps">HLT</span> 2018), task 10, p. 963-967, New Orleans, <span class="caps">USA</span>,&nbsp;2018</li>
+<li>Maria Sulea, Bogdan Dumitru, Liviu P. Dinu. Full Inflection Learning Using Deep Neural Networks, CICLing 2018, Hanoi, Vietnam,&nbsp;2018</li>
+<li>Liviu P Dinu, Ana Uban, 2018. Analyzing Stylistic Variation across Different Political Regimes, CICLing 2018, Hanoi, Vietnam,&nbsp;2018</li>
+<li>Sanja Stajner, Sergiu Nisioi, 2018. A Detailed Evaluation of Neural Sequence-to-Sequence Models for In-domain and Cross-domain Text Simplification. Proceedings of 11th edition of the Language Resources and Evaluation Conference (<span class="caps">LREC</span> 2018), p. 3026-3033, 7-12 May 2018, Miyazaki (Japan)&nbsp;.</li>
 </ol>
 </section>
         <section id="extras" class="body">
