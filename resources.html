@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Resources</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Human Language Technologies Research Center Atom Feed" />
+
+<meta property="og:image" content="/theme/images/logo.jpg" />
+<meta property="og:title" content="Human Language Technologies Research Center" />
+<meta property="og:description" content="Human Language Technologies Research Center, Faculty of Mathematics and Computer Science, University of Bucharest. Natural Language Processing. Machine Learning. Computational Linguistics. Artificial Intelligence. NLP. ML." />
+<meta name="description" content="Human Language Technologies Research Center, Faculty of Mathematics and Computer Science, University of Bucharest. Natural Language Processing. Machine Learning. Computational Linguistics. Artificial Intelligence. NLP. ML." />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie.css"/>
+                <script src="/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=303613546408187";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+        <header id="banner" class="body">
+                <h1>
+                <a href="/"><img src="/theme/images/logo.png" alt="HLT"> </a>
+                 <a href="/">Human Language Technologies Research Center  <br> 
+                 <strong>  Faculty of Mathematics and Computer Science, University of Bucharest   </strong></a></h1>
+                 <nav><ul>
+                    <li><a href="/master_en.html">Master's Degree</a></li>
+                    <li><a href="/events.html">Events</a></li>
+                    <li><a href="/people.html">People</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/resources.html">Resources</a></li>
+                    <li><a href="/publications.html">Publications</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+        
+<section id="content" class="body">    
+    <h1 class="entry-title">Resources</h1>
+    
+    <ul>
+<li><a href="#HistoricalLinguistics">Resources and Tools for Computational Historical&nbsp;Linguistics</a> </li>
+<li><a href="#NeuralTS">Neural Text Simplification&nbsp;Models</a> </li>
+<li><a href="#ENNTT">Europarl Corpus of Native, Non-native and Translated Texts - <span class="caps">ENNTT</span></a> </li>
+<li><a href="#Wittgenstein">A Visual Representation of Wittgenstein&#8217;s Tractatus&nbsp;Logico-Philosophicus</a> </li>
+<li><a href="#RoDet">Romanian Determiners Lexicon - RoDetLexicon&nbsp;1.1</a>  </li>
+<li><a href="#SpeechText">Comparing Speech and Text Classification of Native and Non-native&nbsp;English</a></li>
+<li><a href="#LangSim">Degrees of Similarity Between Romanian and Related&nbsp;Languages</a></li>
+<li><a href="#NER">Cross-lingual Named Entity&nbsp;Recognition</a> </li>
+</ul>
+<hr>
+<p><a name="HistoricalLinguistics"></a></p>
+<h2><a href="">Resources and Tools for Computational Historical&nbsp;Linguistics</a></h2>
+<ul>
+<li>The Java code for automatically identifying and producing related words for historical linguistics: <a href="https://github.com/alinaciobanu/cognates">link</a>.</li>
+<li>The translations used for dictionary-based identification of cognates: <a href="https://drive.google.com/file/d/1wzUHAOfew-erprHblYFNqwwupUslZiG3/view">link</a>.</li>
+<li>The input and output files for experiments on identification and production of relate words: <a href="https://drive.google.com/file/d/1jXvzmbcLjP0ZhVhQIXFpuQ5XqUXrJQDb/view">link</a>.</li>
+</ul>
+<hr>
+<p><a name="NeuralTS"></a></p>
+<h2><a href="https://github.com/senisioi/NeuralTextSimplification">Neural Text Simplification&nbsp;Models</a></h2>
+<ul>
+<li>A great collaboration with <a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dr-sanja-stajner/">Sanja Štajner</a> on text simplification. We present the first attempt at using sequence to sequence neural networks to model text simplification (<span class="caps">TS</span>). Unlike the previously proposed automated methods, our neural text simplification (<span class="caps">NTS</span>) systems are able to simultaneously perform lexical simplification and content reduction. An extensive human evaluation of the output has shown that <span class="caps">NTS</span> systems achieve good grammaticality and meaning preservation of output sentences and higher level of simplification than the state-of-the-art automated <span class="caps">TS</span>&nbsp;systems.</li>
+<li>
+<p>Follow the steps, in order to generate simplified&nbsp;text:</p>
+<ol>
+<li>Checkout <a href="https://github.com/senisioi/NeuralTextSimplification">our repository</a> including the submodules: <code>git clone --recursive https://github.com/senisioi/NeuralTextSimplification.git</code></li>
+<li>Download the pre-trained released models <a href="https://drive.google.com/open?id=0B_pjS_ZjPfT9dEtrbV85UXhSelU"><span class="caps">NTS</span></a> and <a href="https://drive.google.com/open?id=0B_pjS_ZjPfT9ZTRfSFp4Ql92U0E"><span class="caps">NTS</span>-w2v</a> (this may take a while): <code>python src/download_models.py ./models</code></li>
+<li>Run translate.sh from the scripts dir: <code>cd src/scripts &amp;&amp; ./translate.sh</code></li>
+</ol>
+</li>
+</ul>
+<hr>
+<p><a name="ENNTT"></a></p>
+<h2><a href="https://github.com/senisioi/enntt-release">Europarl Corpus of Native, Non-native and Translated Texts - <span class="caps">ENNTT</span></a></h2>
+<ul>
+<li>A complete description of this resource is available <a href="http://www.lrec-conf.org/proceedings/lrec2016/summaries/902.html">here</a>: <strong>A Corpus of Native, Non-native and Translated Texts</strong>, <span class="caps">LREC</span>, 2016, <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/902_Paper.pdf"><span class="caps">PDF</span></a></li>
+<li>For the raw corpus, please check the dataset available <a href="http://nlp.unibuc.ro/resources/ENNTT.tar.gz">here</a></li>
+<li>For the experiments presented in the <span class="caps">ACL</span> 2016 paper, please check the dataset available <a href="https://github.com/nlp-unibuc/nlp-unibuc-website/releases/download/v2.0/ACL2016.tar.gz">here</a></li>
+<li>For the experiments presented in the <a href="http://www.lrec-conf.org/proceedings/lrec2016/summaries/902.html"><span class="caps">LREC</span> 2016</a> paper, please check the dataset available <a href="https://github.com/nlp-unibuc/nlp-unibuc-website/releases/download/v1.2/LREC2016_experiment.tar.gz">here</a></li>
+</ul>
+<h3>Short&nbsp;description:</h3>
+<ul>
+<li>This is a monolingual English corpus of native, non-native and (human) translated texts extracted from the <a href="http://www.statmt.org/europarl/">European Parliament</a>. The translated texts from different source languages represent a subset of the <a href="http://arxiv.org/abs/1509.03611">Haifa Corpus of Translationese</a>. We preserved the same annotation style and included an <span class="caps">ID</span> and the <span class="caps">EU</span> state that each member of the European Parliament&nbsp;represents.</li>
+<li>We hope this dataset will facilitate a unified comparative study of translations and language produced by highly fluent non-native speakers, two closely-related phenomena that have only been studied in isolation so&nbsp;far.</li>
+</ul>
+<hr>
+<p><a name="Wittgenstein"></a></p>
+<h2><a href="http://tractatus.gitlab.io/">A Visual Representation of Wittgenstein&#8217;s Tractatus&nbsp;Logico-Philosophicus</a></h2>
+<ul>
+<li><a href="http://www.gitxiv.com/posts/rNgtXTaiLWDE4HK6n">This work</a> is the result of our collaboration with Anca Bucur, Ph.D. candidate, from the <a href="http://cesi.ro/fr/info/general.htm">Center of Excellence in Image Study</a>.</li>
+<li>We compile a multilingual parallel corpus from different versions of Wittgenstein&#8217;s Tractatus Logico-Philosophicus, including the original in German and translations into English, Spanish, French, and Russian. Using this corpus, we compute a similarity measure between propositions and render <a href="http://tractatus.gitlab.io/">a visual network of relations</a> for different&nbsp;languages.</li>
+</ul>
+<hr>
+<p><a name="SpeechText"></a></p>
+<h2><a href="https://github.com/senisioi/speech-text-features">Comparing Speech and Text Classification of Native and Non-native&nbsp;English</a></h2>
+<ul>
+<li>We provide a comparison of speech and text classification of native and non-native English using a subset of the International Corpus Network of Asian Learners of English (<a href="http://language.sakura.ne.jp/icnale/"><span class="caps">ICNALE</span></a>)</li>
+<li>The analysis is reported in the paper Nisioi, S., <strong>Comparing Speech and Text Classification on <span class="caps">ICNALE</span></strong>, <span class="caps">LREC</span>&nbsp;2016</li>
+</ul>
+<hr>
+<p><a name="RoDet"></a></p>
+<h2><a href="/resources/RoDetLexicon.pdf">Romanian Determiners Lexicon - RoDetLexicon&nbsp;1.1</a></h2>
+<ul>
+<li>The first version of Romanian Determiners Lexicon (<a href="/resources/RoDetLexicon.pdf">RoDetLexicon 1.1</a>) specifies the relevant features for determiners studied so far during the research project &#8220;The structure and interpretation of Romanian Determiner Phrase in Discourse Representation Theory: the determiners&#8221;. The importance of determiners comes from both syntax and semantics. From the point of view of syntactic theory, specifying the determiner’s relevant features naturally leads to the determination of the parameters of syntactic variation in the Determiner Phrase domain. From the discursive perspective, determinants have a fundamental role, being the most important constituents when it comes to establishing the logical structure of the sentence or of the&nbsp;discourse.</li>
+<li>The feature matrix of each determiner contains morpho-syntactic and semantic features, as they emerged from the studies developed during the project, such as: syntactic category, selectional features, phi-features (person, number, gender), definiteness, quantificational features, cardinality, focus, topic, deixis, proximity, contrastive, location, anaphoric, cataphoric or&nbsp;classifier.</li>
+<li>More details are available <a href="http://www.unibuc.ro/depts/limbi/limbi_moderne/docs/2015/noi/16_14_13_26RoDetLexicon.pdf">this</a>&nbsp;paper.</li>
+</ul>
+<hr>
+<p><a name="LangSim"></a></p>
+<h2><a href="/resources/rosim.pdf">Degrees of Similarity Between Romanian and Related&nbsp;Languages</a></h2>
+<ul>
+<li>More details are available in Ciobanu, <span class="caps">A.M.</span> and Dinu, L.P.,  <strong>An Etymological Approach to Cross-Language Orthographic Similarity. Application on Romanian</strong>, <span class="caps">EMNLP</span> 2014 <a href="http://emnlp2014.org/papers/pdf/EMNLP2014112.pdf"><span class="caps">PDF</span></a></li>
+</ul>
+<hr>
+<p><a name="NER"></a></p>
+<h2><a href="https://github.com/senisioi/clwe-ner">Cross-lingual Named Entity&nbsp;Recognition</a></h2>
+<ul>
+<li>Experiments on named entity translation using word embeddings are described in Şulea, O. M., Nisioi, S., and Dinu, L. P.,:, <strong>Using Word Embeddings to Translate Named Entities</strong>, <span class="caps">LREC2016</span></li>
+<li>This resource is an annotated parallel corpus of named entities, currently work in&nbsp;progress</li>
+</ul>
+</section>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Powered by <a href="http://getpelican.com/">Pelican</a>. Theme
+                based on <a
+                    href="http://coding.smashingmagazine.com">Smashing
+                    Magazine</a>.</address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-69680045-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+</body>
+</html>
